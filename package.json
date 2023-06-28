@@ -1,0 +1,16 @@
+{
+  "name": "stt_tester",
+  "version": "1.0.0",
+  "description": "send audio from wav file to STT vendors and print transcripts returned ",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Dave Horton",
+  "license": "MIT",
+  "dependencies": {
+    "@google-cloud/speech": "^5.5.0",
+    "minimist": "^1.2.8",
+    "wav": "^1.0.2"
+  }
+}
